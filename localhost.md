@@ -16,7 +16,9 @@
 > https://blog.csdn.net/zwk626542417/article/details/9796259 *3.网站发布* a&b part
 
 ## Change file permissions
-> Please refer to [Microsoft Official Support File](https://support.microsoft.com/en-us/help/942055/http-error-500-19-error-when-you-open-an-iis-7-0-webpage) HResultCode:0x80070005, Method 2
+> Please refer to [Microsoft Official Support File](https://support.microsoft.com/en-us/help/942055/http-error-500-19-error-when-you-open-an-iis-7-0-webpage) *HResultCode:0x80070005, Method 2*
+
+BTW: To get computername, open cmd and input ***echo %computername%***
 
 ## Download 
 - [.NET Core Hosting Bundle installer](https://www.microsoft.com/net/permalink/dotnetcore-current-windows-runtime-bundle-installer)
