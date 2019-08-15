@@ -1,12 +1,13 @@
-# IIS publish .NET core (localhost)
+# IIS publish .NET core (localhost) --- Both desktop and server OS
 
-## Control panel
+## Control Panel
 
 - **Control Panel** >> **Programs** >> **Programs and Features** >> **Turn Windows features on and off**
 - Select the whole **Internet Information Services**
 
 ## Publish VS project into **Folder**
 > https://blog.csdn.net/qq_22642239/article/details/77006831 *添加网站* part.
+
 ## IIS manager
 
 - In search box, search **inetmgr**, open the IIS manager
@@ -33,7 +34,7 @@ BTW: To get computername, open cmd and input ***echo %computername%***
 - In right column, click **Browse \*:\[PortNumber](http)**
 
 
-### Reference
+## Reference
 Many thanks to:
 - https://stackoverflow.com/questions/14132029/http-error-500-19-on-iis7-malformed-xml-in-web-config
 - **https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.2**
