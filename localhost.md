@@ -1,4 +1,4 @@
-# Bind the MVC application on localhost
+# IIS publish .NET core (localhost)
 
 ## Control panel
 
@@ -13,7 +13,7 @@
 - Choose **Add Website...** 
 - Name your website, choose the physical path and input a unique port number to your website.
 - Click **OK**
-> https://blog.csdn.net/zwk626542417/article/details/9796259 *3.网站发布* a&b
+> https://blog.csdn.net/zwk626542417/article/details/9796259 *3.网站发布* a&b part
 
 ## Change file permissions
 > Please refer to [Microsoft Official Support File](https://support.microsoft.com/en-us/help/942055/http-error-500-19-error-when-you-open-an-iis-7-0-webpage) HResultCode:0x80070005, Method 2
