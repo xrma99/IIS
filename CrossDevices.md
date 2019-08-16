@@ -5,3 +5,5 @@
 ## Ping hostname instead of IP address
 Modify your settings:
 > https://superuser.com/questions/1068448/cant-access-pc-by-name-but-can-by-ip-address
+To *Turn on net discovery*
+> https://support.microsoft.com/en-us/help/2722035/you-cannot-turn-on-network-discovery-in-network-and-sharing-center-in
