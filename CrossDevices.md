@@ -8,3 +8,9 @@ Modify your settings:
 
 To *Turn on net discovery*
 > https://support.microsoft.com/en-us/help/2722035/you-cannot-turn-on-network-discovery-in-network-and-sharing-center-in
+
+## Settings the *Windows Defender Firewall*
+Open the port connection
+
+## Binding the hostname with the website
+IIS Manager **Bindings**
