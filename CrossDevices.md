@@ -15,7 +15,8 @@ Open the port connection: its own website port
 ## Binding the hostname with the website
 IIS Manager ***Bindings***
 
-## Problems about binding IP address and Hostname (use **nslookup** command to check)
+## Problems about binding IP address and Hostname 
+**(use *nslookup* command to check)**
 - Joining intranet domain name: 
   - **Control Panel** > **System and Security** > **System**
   - *Change settings* of *WORKGROUP*/*Domain* as long as you have administrator permission
