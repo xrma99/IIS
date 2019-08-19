@@ -10,7 +10,13 @@ To *Turn on net discovery*
 > https://support.microsoft.com/en-us/help/2722035/you-cannot-turn-on-network-discovery-in-network-and-sharing-center-in
 
 ## Settings the *Windows Defender Firewall*
-Open the port connection
+Open the port connection: its own website port
 
 ## Binding the hostname with the website
-IIS Manager **Bindings**
+IIS Manager ***Bindings***
+
+## Problems about binding IP address and Hostname (use **nslookup** command to check)
+- Joining intranet domain name: 
+  - **Control Panel** > **System and Security** > **System**
+  - *Change settings* of *WORKGROUP*/*Domain* as long as you have administrator permission
+- Setting up DNS Server
