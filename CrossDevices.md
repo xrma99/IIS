@@ -21,3 +21,7 @@ IIS Manager ***Bindings***
   - **Control Panel** > **System and Security** > **System**
   - *Change settings* of *WORKGROUP*/*Domain* as long as you have administrator permission
 - Setting up DNS Server
+  - Building: https://www.businessnewsdaily.com/11019-set-up-configure-dns-on-windows-server-2016.html
+  - Setting Server Properties: **Forwarders** & **Root Hints** (Domain name)
+  
+  We can now nslookup, but it's *Non-authoritative answer*.
