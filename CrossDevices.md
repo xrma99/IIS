@@ -27,3 +27,11 @@ IIS Manager ***Bindings***
   We can now nslookup, but it's *Non-authoritative answer*.
 
 **https://win10faq.com/create-domain-windows-server/**
+
+Change new user's permission into administrator so it can be connected remotely.
+
+Change local machine's DNS settings to server's IP address.
+
+Local machine joins Domain.
+
+Complete!
