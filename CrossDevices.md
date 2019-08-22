@@ -1,4 +1,4 @@
-# Visit via hostname from another device
+# Visit via hostname from another intranet device
 
 **Example**: In computer A (HOSTNAME:computerA), I can visit my website via http://localhost:8088/. Then I need to access this website as http://computerA:8088/ via any computer in the intranet.
 
