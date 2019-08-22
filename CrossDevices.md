@@ -20,18 +20,20 @@ IIS Manager ***Bindings***
 - Join the existing intranet domain
   - **Control Panel** > **System and Security** > **System**
   - *Change settings* of *WORKGROUP*/*Domain* as long as you have administrator permission
-- Set up a new domain and allocate users account and password
-  - Building: https://www.businessnewsdaily.com/11019-set-up-configure-dns-on-windows-server-2016.html
-  - Setting Server Properties: **Forwarders** & **Root Hints** (Domain name)
-  
-  We can now nslookup, but it's *Non-authoritative answer*.
 
-**https://win10faq.com/create-domain-windows-server/**
+- Set up a new domain and allocate user account and password
+  - Create a new domain and add another user (aside from administrator): **https://win10faq.com/create-domain-windows-server/**
+  - Change this new user's permission into administrator so it can be connected remotely.
+  - Change local machine's DNS settings to server's IP address.   
+    **Control Panel > Network and Internet > Network and Sharing Center > *Connections* > Properties > Internet Protocol Version 4 *Properties* > *Use the Following DNS Server Address***
+  - Local machine joins Domain.
+  - Complete!
+    
 
-Change new user's permission into administrator so it can be connected remotely.
+Building: https://www.businessnewsdaily.com/11019-set-up-configure-dns-on-windows-server-2016.html
 
-Change local machine's DNS settings to server's IP address.
+Setting Server Properties: **Forwarders** & **Root Hints** (Domain name)
 
-Local machine joins Domain.
+We can now nslookup, but it's *Non-authoritative answer*.
 
-Complete!
+
